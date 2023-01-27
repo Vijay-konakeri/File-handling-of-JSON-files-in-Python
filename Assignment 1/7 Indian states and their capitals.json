@@ -1,0 +1,16 @@
+import json
+
+# Create the dictionary
+states_and_capitals = {
+    "Andhra Pradesh": "Amaravati",
+    "Arunachal Pradesh": "Itanagar",
+    "Assam": "Dispur",
+    "Bihar": "Patna",
+    "Chhattisgarh": "Raipur",
+    "Goa": "Panaji",
+    "Gujarat": "Gandhinagar"
+}
+
+# Write the dictionary to a JSON file
+with open("states_and_capitals.json", "w") as file:
+    json.dump(states_and_capitals, file)
